@@ -1,0 +1,106 @@
+body {
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header {
+    background-color: black;
+    padding: 20px;
+    height: 69px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    top: 0;
+}
+.logo {
+    height: 50px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-link {
+    align-self: center;
+    text-decoration: underline;
+    color: seashell;
+    font-size: 22px;
+    padding: 7px;
+    font-family: sans-serif;
+}
+
+/* Main */
+.main {
+    margin-top: 69px;
+    padding-top: 10px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Mission */
+#mission {
+    background: url("/Users/noorulainkhaliq/Desktop/Tea Cozy/resources/images/background.jpg") no-repeat center center;
+    height: 700px;
+}
+.mission-content {
+    background: black;
+    margin: auto;
+    width: 100%
+}
+h2, h3, h4 {
+    padding: 10px;
+    margin: auto;
+  }
+
+/* Tea Month */
+#tea-month {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    padding-top: 5px;
+}
+.tea img {
+    height: 200px;
+    width: 300px;
+    padding: 20px
+}
+
+.tea span{
+    display: block;
+    font-weight: bold;
+}
+.tea {
+    padding: 10px
+}
+
+/* Locations */
+
+#locations {
+    background: url("/Users/noorulainkhaliq/Desktop/Tea Cozy/resources/images/locations.jpg") no-repeat center center;
+    height: 500px;
+}
+/* .location {
+    background-color: black;
+    width: 300px;
+    align-items: center;
+} */
+
+.location {
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    margin-right: 40px;
+    margin-top: 15px;
+    opacity: 1;
+  }
+footer{
+    text-align: left;
+    padding-left: 10px;
+}

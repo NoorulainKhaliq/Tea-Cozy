@@ -49,7 +49,7 @@ nav {
 /* Mission */
 #mission {
     background: url("/Users/noorulainkhaliq/Desktop/Tea Cozy/resources/images/background.jpg") no-repeat center center;
-    height: 43.75rem;
+    height: 47rem;
     background-size: contain;
 /* height: 180vh; */
 }
@@ -113,6 +113,9 @@ footer{
     }
 }
 @media only screen and (max-width: 950px) {
+    #mission{
+        height: 40rem;
+    }
     .location{
         width: 13rem;
         flex-grow: 1;

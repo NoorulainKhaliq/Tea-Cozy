@@ -50,13 +50,15 @@ nav {
 #mission {
     background: url("/Users/noorulainkhaliq/Desktop/Tea Cozy/resources/images/background.jpg") no-repeat center center;
     height: 43.75rem;
+    background-size: contain;
+/* height: 180vh; */
 }
 .mission-content {
     background: black;
     margin: auto;
     width: 100%
 }
-h2, h3, h4 {
+h2, h3, h4,h5 {
     padding: .6rem;
     margin: auto;
   }
@@ -85,15 +87,17 @@ h2, h3, h4 {
     background: url("/Users/noorulainkhaliq/Desktop/Tea Cozy/resources/images/locations.jpg") no-repeat center center;
     height: 40rem;
     margin-top: 2rem;
+    background-size: contain;
 }
 
 .location {
     align-items: center;
     background-color: black;
     width: 18.75rem;
-    margin-right: 2.5rem;
     margin-top: 0.9rem;
     opacity: 1;
+    border: .1rem solid seashell;
+    padding: 2rem 0;
   }
 footer{
     text-align: left;
@@ -102,11 +106,49 @@ footer{
 
 @media only screen and (max-width: 1035px) {
     .location{
-        width: 15rem
+        width: 15rem;
+        height: 15rem;
+        margin: auto;
+        padding: .2rem;
     }
 }
-@media only screen and (max-width: 855px) {
+@media only screen and (max-width: 950px) {
     .location{
-        width: 13rem
+        width: 13rem;
+        flex-grow: 1;
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .location{
+        width: 13rem;
+        flex-grow: 1;
+    }
+    #locations{
+        background: none;
+    }
+    nav {
+        flex-wrap: nowrap;
+        align-self: center;
+        font-size: 1.5rem;
+    }
+    header{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .logo{
+        width: 10rem;
+        align-self: center;
+    }
+    footer{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 454px) {
+    #contact{
+        margin-top: 11rem;
     }
 }

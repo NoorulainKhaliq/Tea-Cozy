@@ -1,24 +1,26 @@
 body {
-    font-size: 22px;
+    font-size: 1.7rem;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    box-sizing: border-box;
 }
 header {
     background-color: black;
-    padding: 20px;
-    height: 69px;
+    padding-top: .5rem;
+    height: 4.8rem;
     width: 98%;
     display: flex;
     justify-content: space-between;
     position: fixed;
-    border-bottom: 1px solid seashell;
+    border-bottom: .020rem solid seashell;
     z-index: 1;
     top: 0;
 }
 .logo {
-    height: 50px;
+    height: 3.6rem;
+    padding-top: .4rem;
 }
 nav {
     display: flex;
@@ -28,15 +30,15 @@ nav {
     align-self: center;
     text-decoration: underline;
     color: seashell;
-    font-size: 22px;
-    padding: 7px;
+    font-size: 1em;
+    padding: .3em;
     font-family: sans-serif;
 }
 
 /* Main */
 .main {
-    margin-top: 69px;
-    padding-top: 10px;
+    margin-top: 4.6rem;
+    padding-top: .5rem;
 }
 .flex-container {
     display: flex;
@@ -47,7 +49,7 @@ nav {
 /* Mission */
 #mission {
     background: url("/Users/noorulainkhaliq/Desktop/Tea Cozy/resources/images/background.jpg") no-repeat center center;
-    height: 700px;
+    height: 43.75rem;
 }
 .mission-content {
     background: black;
@@ -55,21 +57,18 @@ nav {
     width: 100%
 }
 h2, h3, h4 {
-    padding: 10px;
+    padding: .6rem;
     margin: auto;
   }
 
 /* Tea Month */
 #tea-month {
-    width: 1000px;
-    height: 1000px;
-    margin: auto;
-    padding-top: 5px;
+    padding-top: 5rem;
 }
 .tea img {
-    height: 200px;
-    width: 300px;
-    padding: 20px
+    height: 12.5rem;
+    width: 18.75rem;
+    padding: 1.25rem;
 }
 
 .tea span{
@@ -77,30 +76,37 @@ h2, h3, h4 {
     font-weight: bold;
 }
 .tea {
-    padding: 10px
+    padding: 0.6rem;
 }
 
 /* Locations */
 
 #locations {
     background: url("/Users/noorulainkhaliq/Desktop/Tea Cozy/resources/images/locations.jpg") no-repeat center center;
-    height: 500px;
+    height: 40rem;
+    margin-top: 2rem;
 }
-/* .location {
-    background-color: black;
-    width: 300px;
-    align-items: center;
-} */
 
 .location {
     align-items: center;
     background-color: black;
-    width: 300px;
-    margin-right: 40px;
-    margin-top: 15px;
+    width: 18.75rem;
+    margin-right: 2.5rem;
+    margin-top: 0.9rem;
     opacity: 1;
   }
 footer{
     text-align: left;
-    padding-left: 10px;
+    padding-left: 0.625rem;
+}
+
+@media only screen and (max-width: 1035px) {
+    .location{
+        width: 15rem
+    }
+}
+@media only screen and (max-width: 855px) {
+    .location{
+        width: 13rem
+    }
 }

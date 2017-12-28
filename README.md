@@ -1,6 +1,6 @@
 #TeaCozy
 
 ```
-Practice html and css
+Practice html, css and responsive design
 
 ```
